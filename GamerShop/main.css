@@ -25,8 +25,21 @@ header nav li a {
     width: 100%;
     margin: 0 auto;
 }
-header .container {
+header .container,
+section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.brands-list img{
+height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+}
+
+section .container {
+    align-items: flex-start;
 }
