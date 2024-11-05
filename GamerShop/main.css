@@ -1,14 +1,25 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
+
 header {
-    padding: 16px, 0;
+    padding: 16px 0;
     background-color: #182c61;
-    color:#ecfef1
+    color:#ecfef1;
 }
+
 header nav li {
     display: inline;
     margin-left: 16px;
+}
+
+header nav li a {
+    color: white;
+}
+.container {
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
 }
